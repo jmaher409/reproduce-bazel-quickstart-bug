@@ -1,0 +1,17 @@
+{
+  "name": "reproduce-bazel-quickstart-bug",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "bazel build //...",
+    "test": "ibazel test //..."
+  },
+  "repository": "https://github.com/jmaher409/reproduce-bazel-quickstart-bug.git",
+  "author": "Justin Maher <justin.maher@logmein.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@bazel/bazel": "^0.23.2",
+    "@bazel/buildifier": "^0.22.0",
+    "@bazel/ibazel": "^0.10.0"
+  }
+}
